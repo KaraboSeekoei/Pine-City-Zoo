@@ -71,6 +71,7 @@ body{
     margin-top: 119px;
     background: url('images/map-blur.png');
     background-repeat: repeat-y; 
+    background-size: cover;
 }
 #content{
     padding-top: 1px;
@@ -103,4 +104,9 @@ a.info-box{
     padding : 0;
     width   : 90%;
     color   : #131313;
+}
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
 }
